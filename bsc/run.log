@@ -1,0 +1,69 @@
+[2022-02-18T20:29:38.899] [INFO] default - 4.833
+[2022-02-18T20:29:38.903] [INFO] default - 0.002495213340181622
+[2022-02-18T20:29:38.903] [DEBUG] default - this is debug message for file.
+[2022-02-18T20:29:38.903] [INFO] default - starting keepQuery job...
+[2022-02-18T20:29:38.904] [INFO] default - starting tryToSell job...
+[2022-02-18T20:29:46.634] [INFO] default - 4.833
+[2022-02-18T20:29:46.638] [INFO] default - 0.002495213340181622
+[2022-02-18T20:29:46.638] [INFO] default - starting keepQuery job...
+[2022-02-18T20:29:46.639] [INFO] default - starting tryToSell job...
+[2022-02-18T20:29:56.210] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:29:56.212] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:30:05.774] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:30:05.775] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:30:15.334] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:30:15.335] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:30:24.887] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:30:24.887] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:30:34.456] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:30:34.457] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:30:44.030] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:30:44.030] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:30:53.587] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:30:53.588] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:31:03.145] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:31:03.145] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:31:12.706] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:31:12.707] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:31:22.262] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:31:22.263] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:31:31.820] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:31:31.820] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:31:41.382] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:31:41.382] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:31:50.939] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:31:50.941] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:32:00.497] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:32:00.498] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:32:10.024] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:32:10.024] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:32:19.570] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:32:19.571] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:32:29.116] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:32:29.117] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:32:38.664] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:32:38.665] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:32:48.215] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:32:48.216] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:32:57.770] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:32:57.770] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:33:07.320] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:33:07.321] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:33:16.869] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:33:16.869] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:33:26.431] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:33:26.431] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:33:36.006] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:33:36.007] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:33:45.559] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:33:45.560] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:33:55.095] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:33:55.095] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:34:04.652] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:34:04.653] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:34:14.218] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:34:14.219] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:34:23.783] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:34:23.784] [INFO] default - now buyed tokens:  0
+[2022-02-18T20:34:33.338] [INFO] default - now cached no liquid token num:  0
+[2022-02-18T20:34:33.340] [INFO] default - now buyed tokens:  0
