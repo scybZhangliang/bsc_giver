@@ -771,21 +771,21 @@ function getLatestABIOfToken(tokenAddress, defaultABI) {
 async function queryKeypairLiquidityWithLatestABI(keypairInfo, defaultABI) {
     //初始化pair合约对象
     //1. 获取pair合约的abi
-        if (ABIS.has(keypairInfo.keypairAddress)) {
-            return queryKeypairLiquidity(keypairInfo, ABIS.get(keypairInfo.keypairAddress));
-        } else {
-            let result;
-            await getLatestABIOfToken(keypairInfo.keypairAddress, defaultABI).then(abi => {
-                ABIS.set(keypairInfo.keypairAddress, abi)
-                result = queryKeypairLiquidity(keypairInfo, abi)
+    if (ABIS.has(keypairInfo.keypairAddress)) {
+        return queryKeypairLiquidity(keypairInfo, ABIS.get(keypairInfo.keypairAddress));
+    } else {
+        let result;
+        await getLatestABIOfToken(keypairInfo.keypairAddress, defaultABI).then(abi => {
+            ABIS.set(keypairInfo.keypairAddress, abi)
+            result = queryKeypairLiquidity(keypairInfo, abi)
 
-            }).catch(error => {
-                logger.warn(`get latest ABI of keypair [${keypairInfo.keypairAddress}] . ignore this keypair.`)
-                keypairWithNoLiquidArr.delete(keypairInfo.keypairAddress)
-                //reject(error)
-            })
-            return result;
-        }
+        }).catch(error => {
+            logger.warn(`get latest ABI of keypair [${keypairInfo.keypairAddress}] . ignore this keypair.`)
+            keypairWithNoLiquidArr.delete(keypairInfo.keypairAddress)
+            //reject(error)
+        })
+        return result;
+    }
 }
 
 const  queryKeypairLiquidity = async (keypairInfo, abi) => {
@@ -808,17 +808,22 @@ const  queryKeypairLiquidity = async (keypairInfo, abi) => {
                     logger.error("get pair reverse failed. ", error);
                     copied.token0Reserve = 0;
                     copied.token1Reserve = 0;
+                    resolve(copied)
+
                 } else {
                     copied.token0Reserve = result._reserve0;
                     copied.token1Reserve = result._reserve1;
+                    resolve(copied)
+
                 }
             })
         } catch (e) {
             copied.token0Reserve = 0;
             copied.token1Reserve = 0;
             logger.error("trycatch erorr. ",e)
+            resolve(copied)
+
         }
-        resolve(copied)
     })
 }
 
